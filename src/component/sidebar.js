@@ -1,15 +1,20 @@
-import { useState, useContext } from "react"
+import { useState,} from "react"
 import { Button, Row, Col, Modal, ModalHeader, ModalBody, ModalFooter, Input } from "reactstrap"
 
 const SidebarComponent = () => {
 
     const [posting, setPosting] = useState('')
-    const [topic, setTopic] = useState('1')
-    const [err, setErr] = useState(false)
+    const [//topic
+        , setTopic] = useState('1')
+    const [
+        //err
+        , 
+        //setErr
+        ] = useState(false)
 
     //popup modal
     const [postingModal, setPostingModal] = useState(false)
-    const [logoutModal, setLogoutModal] = useState(false)
+    // const [logoutModal, setLogoutModal] = useState(false)
 
     const handleSelect = (select) => {
         setTopic(select)

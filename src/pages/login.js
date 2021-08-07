@@ -1,5 +1,5 @@
 import { Button } from "reactstrap"
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import { Row, Col,Input, Label, FormFeedback } from "reactstrap"
 import '../stlyes/login.css'
 
